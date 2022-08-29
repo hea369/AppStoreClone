@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		D8BF897F28BC82300045A959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF897E28BC82300045A959 /* AppDelegate.swift */; };
 		D8BF898128BC82300045A959 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF898028BC82300045A959 /* SceneDelegate.swift */; };
-		D8BF898328BC82300045A959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BF898228BC82300045A959 /* ViewController.swift */; };
 		D8BF898628BC82300045A959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BF898428BC82300045A959 /* Main.storyboard */; };
 		D8BF898828BC82320045A959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BF898728BC82320045A959 /* Assets.xcassets */; };
 		D8BF898B28BC82320045A959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BF898928BC82320045A959 /* LaunchScreen.storyboard */; };
+		D8FE9D3228BC892900FABEB0 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D3128BC892900FABEB0 /* GamesViewController.swift */; };
+		D8FE9D3428BC893A00FABEB0 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D3328BC893A00FABEB0 /* AppsViewController.swift */; };
+		D8FE9D3628BC895300FABEB0 /* SearhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FE9D3528BC895300FABEB0 /* SearhViewController.swift */; };
+		D8FE9D3928BC8B9C00FABEB0 /* Games.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE9D3728BC8B9C00FABEB0 /* Games.storyboard */; };
+		D8FE9D3B28BC8BAA00FABEB0 /* Apps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE9D3A28BC8BAA00FABEB0 /* Apps.storyboard */; };
+		D8FE9D3E28BC8BB500FABEB0 /* Searh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FE9D3C28BC8BB500FABEB0 /* Searh.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8BF897B28BC82300045A959 /* AppStoreClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BF897E28BC82300045A959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BF898028BC82300045A959 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8BF898228BC82300045A959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8BF898528BC82300045A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8BF898728BC82320045A959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8BF898A28BC82320045A959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8BF898C28BC82320045A959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FE9D3128BC892900FABEB0 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		D8FE9D3328BC893A00FABEB0 /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		D8FE9D3528BC895300FABEB0 /* SearhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearhViewController.swift; sourceTree = "<group>"; };
+		D8FE9D3828BC8B9C00FABEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppStoreClone/Base.lproj/Games.storyboard; sourceTree = "<group>"; };
+		D8FE9D3A28BC8BAA00FABEB0 /* Apps.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Apps.storyboard; sourceTree = "<group>"; };
+		D8FE9D3D28BC8BB500FABEB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppStoreClone/Base.lproj/Searh.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		D8BF897D28BC82300045A959 /* AppStoreClone */ = {
 			isa = PBXGroup;
 			children = (
+				D8FE9D4328BC8DB500FABEB0 /* Support */,
+				D8FE9D3F28BC8BBB00FABEB0 /* Games */,
+				D8FE9D4028BC8BC500FABEB0 /* Apps */,
+				D8FE9D4128BC8BD400FABEB0 /* Searh */,
+			);
+			path = AppStoreClone;
+			sourceTree = "<group>";
+		};
+		D8FE9D3F28BC8BBB00FABEB0 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE9D3728BC8B9C00FABEB0 /* Games.storyboard */,
+				D8FE9D3128BC892900FABEB0 /* GamesViewController.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		D8FE9D4028BC8BC500FABEB0 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE9D3A28BC8BAA00FABEB0 /* Apps.storyboard */,
+				D8FE9D3328BC893A00FABEB0 /* AppsViewController.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		D8FE9D4128BC8BD400FABEB0 /* Searh */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE9D3C28BC8BB500FABEB0 /* Searh.storyboard */,
+				D8FE9D3528BC895300FABEB0 /* SearhViewController.swift */,
+			);
+			path = Searh;
+			sourceTree = "<group>";
+		};
+		D8FE9D4328BC8DB500FABEB0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				D8BF897E28BC82300045A959 /* AppDelegate.swift */,
 				D8BF898028BC82300045A959 /* SceneDelegate.swift */,
-				D8BF898228BC82300045A959 /* ViewController.swift */,
 				D8BF898428BC82300045A959 /* Main.storyboard */,
 				D8BF898728BC82320045A959 /* Assets.xcassets */,
 				D8BF898928BC82320045A959 /* LaunchScreen.storyboard */,
 				D8BF898C28BC82320045A959 /* Info.plist */,
 			);
-			path = AppStoreClone;
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8FE9D3928BC8B9C00FABEB0 /* Games.storyboard in Resources */,
 				D8BF898B28BC82320045A959 /* LaunchScreen.storyboard in Resources */,
+				D8FE9D3E28BC8BB500FABEB0 /* Searh.storyboard in Resources */,
 				D8BF898828BC82320045A959 /* Assets.xcassets in Resources */,
+				D8FE9D3B28BC8BAA00FABEB0 /* Apps.storyboard in Resources */,
 				D8BF898628BC82300045A959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8BF898328BC82300045A959 /* ViewController.swift in Sources */,
 				D8BF897F28BC82300045A959 /* AppDelegate.swift in Sources */,
+				D8FE9D3228BC892900FABEB0 /* GamesViewController.swift in Sources */,
+				D8FE9D3428BC893A00FABEB0 /* AppsViewController.swift in Sources */,
 				D8BF898128BC82300045A959 /* SceneDelegate.swift in Sources */,
+				D8FE9D3628BC895300FABEB0 /* SearhViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +213,22 @@
 				D8BF898A28BC82320045A959 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8FE9D3728BC8B9C00FABEB0 /* Games.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FE9D3828BC8B9C00FABEB0 /* Base */,
+			);
+			name = Games.storyboard;
+			sourceTree = "<group>";
+		};
+		D8FE9D3C28BC8BB500FABEB0 /* Searh.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8FE9D3D28BC8BB500FABEB0 /* Base */,
+			);
+			name = Searh.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,11 +358,13 @@
 				DEVELOPMENT_TEAM = 69T5P6ASGW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppStoreClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Store Clone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +388,13 @@
 				DEVELOPMENT_TEAM = 69T5P6ASGW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppStoreClone/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "App Store Clone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
