@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U5M-lF-oPN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oZc-RY-2M0">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Serch-->
+        <!--Searh-->
         <scene sceneID="sMH-lN-ARH">
             <objects>
                 <viewController id="U5M-lF-oPN" customClass="SearhViewController" customModule="AppStoreClone" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,11 +18,30 @@
                         <viewLayoutGuide key="safeArea" id="yl0-Wk-xsX"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Serch" image="magnifyingglass" catalog="system" id="mp3-Ur-lWJ"/>
+                    <navigationItem key="navigationItem" title="Searh" id="HQM-1a-ixK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uX3-Co-S2M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896" y="1169"/>
+            <point key="canvasLocation" x="1805.7971014492755" y="1168.5267857142856"/>
+        </scene>
+        <!--Serch-->
+        <scene sceneID="SXo-g3-wF9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oZc-RY-2M0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Serch" image="magnifyingglass" catalog="system" id="mp3-Ur-lWJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="H6W-kL-e3T">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="U5M-lF-oPN" kind="relationship" relationship="rootViewController" id="mKe-1R-Rox"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WV6-U6-1sq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="1168"/>
         </scene>
     </scenes>
     <resources>
